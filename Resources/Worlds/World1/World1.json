@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "levelPaths": [
+        "Level1.json",
+        "Level2.json",
+        "Level3.json",
+        "Level4.json",
+        "Level5.json",
+        "Level6.json"
+    ]
+}

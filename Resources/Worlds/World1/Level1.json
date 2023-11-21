@@ -1,0 +1,45 @@
+{
+    "id": 1,
+    "duration": 2.455510139465332,
+    "average": 0,
+    "isTutorial": true,
+    "tutorial":
+        {
+            "id": 1,
+            "type": "main",
+            "steps": [
+                {
+                    "message": "Look! There’s a main beat!\nTap with two fingers to place it.",
+                    "pausePosition": 0,
+                    "beatKind": "main",
+                    "wheelCount": 0
+                },
+                {
+                    "message": "Another main beat!",
+                    "pausePosition": 8,
+                    "beatKind": "main",
+                    "wheelCount": 0
+                }
+            ]
+        },
+    "wheels": [
+        {
+            "id": 1,
+            "audioName": "Main1.mp3",
+            "instrument": "Kick",
+            "accuracy": 0,
+            "beats": [
+                {
+                    "id": 1,
+                    "position": 0,
+                    "kind": "main"
+                },
+                {
+                    "id": 2,
+                    "position": 0.5,
+                    "kind": "main"
+                }
+            ]
+        }
+    ]
+}

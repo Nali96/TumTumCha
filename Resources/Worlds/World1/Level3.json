@@ -1,0 +1,46 @@
+{
+    "id": 3,
+    "duration": 2.455510139465332,
+    "average": 0,
+    "isTutorial": true,
+    "tutorial":
+        {
+            "id": 3,
+            "type": "off",
+            "steps": [
+                {
+                    "message": "Look! There’s a off beat!\nTap on the left side to place it.",
+                    "pausePosition": 3,
+                    "beatKind": "off",
+                    "wheelCount": 0
+                },
+                {
+                    "message": "Another off beat!",
+                    "pausePosition": 11,
+                    "beatKind": "off",
+                    "wheelCount": 0
+                }
+            ]
+        },
+    "wheels": [
+        {
+            "id": 6,
+            "audioName": "Off1.mp3",
+            "instrument": "Rim",
+            "accuracy": 0,
+            "beats": [
+                {
+                    "id": 11,
+                    "position": 0.1875,
+                    "kind": "off"
+                },
+                {
+                    "id": 12,
+                    "position": 0.6875,
+                    "kind": "off"
+                }
+            ]
+        }
+    ]
+}
+

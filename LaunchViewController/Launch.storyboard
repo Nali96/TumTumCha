@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aMO-ay-kB0">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="TH0-Pu-inL">
+            <objects>
+                <viewController id="aMO-ay-kB0" customClass="LaunchViewController" customModule="TumTumCha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HeW-XK-jDT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="InX-5y-lkE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="InX-5y-lkE" secondAttribute="trailing" id="Aqt-pi-IJ2"/>
+                            <constraint firstItem="InX-5y-lkE" firstAttribute="leading" secondItem="HeW-XK-jDT" secondAttribute="leading" id="Kqa-9o-tt1"/>
+                            <constraint firstItem="InX-5y-lkE" firstAttribute="top" secondItem="HeW-XK-jDT" secondAttribute="top" id="bHq-bG-ZRe"/>
+                            <constraint firstAttribute="bottom" secondItem="InX-5y-lkE" secondAttribute="bottom" id="ukc-aP-EwT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zsC-mK-h0a"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="InX-5y-lkE" id="j0t-2h-1Lj"/>
+                        <segue destination="eO8-4v-rcQ" kind="show" identifier="showHome" id="QCX-ru-Ndt"/>
+                        <segue destination="UTe-wk-SUV" kind="show" identifier="showOnboarding" id="wEv-cr-Epp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8KF-Ll-0V6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-546.37681159420299" y="-69.642857142857139"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="8Q4-wP-P5t">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="eO8-4v-rcQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHj-Eh-p5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="-70"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="8Z8-35-qtO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="UTe-wk-SUV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KSh-Ws-C9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="-243"/>
+        </scene>
+    </scenes>
+</document>

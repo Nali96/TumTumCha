@@ -1,0 +1,45 @@
+{
+    "id": 2,
+    "duration": 2.455510139465332,
+    "average": 0,
+    "isTutorial": true,
+    "tutorial":
+        {
+            "id": 2,
+            "type": "secondary",
+            "steps": [
+                {
+                    "message": "Look! There’s a secondary beat!\nTap on the right side to place it.",
+                    "pausePosition": 4,
+                    "beatKind": "secondary",
+                    "wheelCount": 0
+                },
+                {
+                    "message": "Another secondary beat!",
+                    "pausePosition": 12,
+                    "beatKind": "secondary",
+                    "wheelCount": 0
+                }
+            ]
+        },
+    "wheels": [
+        {
+            "id": 3,
+            "audioName": "Secondary1.mp3",
+            "instrument": "Hats",
+            "accuracy": 0,
+            "beats": [
+                {
+                    "id": 5,
+                    "position": 0.25,
+                    "kind": "secondary"
+                },
+                {
+                    "id": 6,
+                    "position": 0.75,
+                    "kind": "secondary"
+                }
+            ]
+        }
+    ]
+}

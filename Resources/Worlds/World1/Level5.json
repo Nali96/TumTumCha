@@ -1,0 +1,44 @@
+{
+    "id": 5,
+    "duration": 2.455510139465332,
+    "average": 0,
+    "isTutorial": false,
+    "wheels": [
+        {
+            "id": 4,
+            "audioName": "Main2.mp3",
+            "instrument": "Kick",
+            "accuracy": 0,
+            "beats": [
+                {
+                    "id": 7,
+                    "position": 0,
+                    "kind": "main"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "audioName": "Secondary2.mp3",
+            "instrument": "Hats",
+            "accuracy": 0,
+            "beats": [
+                {
+                    "id": 9,
+                    "position": 0.25,
+                    "kind": "secondary"
+                },
+                {
+                    "id": 10,
+                    "position": 0.5,
+                    "kind": "secondary"
+                },
+                {
+                    "id": 10,
+                    "position": 0.75,
+                    "kind": "secondary"
+                }
+            ]
+        }
+    ]
+}
